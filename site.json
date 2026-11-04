@@ -1,0 +1,80 @@
+{
+  "title": "The Economy Guide",
+  "tagline": "Keep the coins flowing and the prices fair.",
+  "author": "direk james",
+  "repo": "direkjames/economy-guide",
+  "nav": [
+    {
+      "id": "start",
+      "title": "Start here",
+      "icon": "compass",
+      "blurb": "What an economy is, the rules that never change, and a plan to launch one.",
+      "pages": ["start/basics", "start/golden-rules", "start/launch-plan"]
+    },
+    {
+      "id": "design",
+      "title": "Design",
+      "icon": "pencil",
+      "blurb": "Pick the currency, price every item and shape how fast players grow rich.",
+      "pages": ["design/currency", "design/pricing", "design/progression"]
+    },
+    {
+      "id": "faucets",
+      "title": "Money in",
+      "icon": "drop",
+      "kind": "faucet",
+      "blurb": "Every way coins are created, and how to keep each one under control.",
+      "pages": ["faucets/catalogue", "faucets/taming"]
+    },
+    {
+      "id": "sinks",
+      "title": "Money out",
+      "icon": "flame",
+      "kind": "sink",
+      "blurb": "Every way coins disappear, plus taxes and fees that actually work.",
+      "pages": ["sinks/catalogue", "sinks/taxes"]
+    },
+    {
+      "id": "inflation",
+      "title": "Inflation",
+      "icon": "trend",
+      "blurb": "Spot it early, fix it calmly, and measure it every week.",
+      "pages": ["inflation/spotting", "inflation/fixing", "inflation/tracking"]
+    },
+    {
+      "id": "markets",
+      "title": "Markets",
+      "icon": "store",
+      "blurb": "Admin shops, the auction house and player shops.",
+      "pages": ["markets/admin-shop", "markets/player-market"]
+    },
+    {
+      "id": "fair",
+      "title": "Fair play",
+      "icon": "scale",
+      "blurb": "Welcome new players, stop exploits and change things without anger.",
+      "pages": ["fair/fairness", "fair/exploits"]
+    },
+    {
+      "id": "modes",
+      "title": "Your modes",
+      "icon": "cubes",
+      "blurb": "Advice for Oneblock, Survival and the Cobblemon modpack.",
+      "pages": ["modes/oneblock", "modes/survival", "modes/cobblemon"]
+    },
+    {
+      "id": "toolkit",
+      "title": "Toolkit",
+      "icon": "toolbox",
+      "blurb": "A health check, a weekly checklist, formulas, plugin ideas and a glossary.",
+      "pages": ["toolkit/health-check", "toolkit/checklist", "toolkit/formulas", "toolkit/plugins", "toolkit/glossary"]
+    }
+  ],
+  "numbers": [
+    { "big": "80–100%", "small": "of the money you create should leave again, week after week" },
+    { "big": "20–40%", "small": "is what an admin shop pays for an item, compared with its buy price" },
+    { "big": "2–5%", "small": "tax on player-to-player trades is enough for most servers" },
+    { "big": "±5%", "small": "weekly change in money per player once the server settles" },
+    { "big": "0", "small": "money-making loops allowed, so test every recipe" }
+  ]
+}
